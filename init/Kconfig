@@ -1545,8 +1545,8 @@ choice
 	prompt "Compiler optimization level"
 	default CONFIG_CC_OPTIMIZE_FOR_PERFORMANCE
 
-config CC_OPTIMIZE_FOR_PERFORMANCE
-	bool "Optimize for performance"
+config CC_OPTIMIZE_FOR_PERFORMANCE_02
+	bool "Optimize for performance (-02)"
 	help
 	  This is the default optimization level for the kernel, building
 	  with the "-O2" compiler flag for best performance and most
